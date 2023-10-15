@@ -232,7 +232,7 @@
 	</li> -->
 	<li class="waves-effect waves-light">
 	<a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="waves-effect waves-dark">
-			<i class="ti-layout-sidebar-left"></i> Logout
+			<i class="ti-layout-sidebar-left"></i> Click to Logout
 	</a>
 	<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
 	@csrf
